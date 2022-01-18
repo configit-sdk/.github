@@ -1,7 +1,10 @@
-## Requesting access to Configit SDK
 
-The Configit SDK repositories and packages are private. To request access, mail
-configit-sdk-req@configit.com.
+# Welcome to the Configit SDK :wave:
+
+Welcome to the Configit SDK, home of API client libraries and sample code for Configit partners.
+
+> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private. To request access, mail
+> configit-sdk-req@configit.com.
 
 ## Configit Ace C#/.NET clients
 
