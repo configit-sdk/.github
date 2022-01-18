@@ -1,6 +1,4 @@
-Configit SDK contains libraries and sample code to help you develop applications integrated to Configit Ace.
-
-## Requesting access
+## Requesting access to Configit SDK
 
 The Configit SDK repositories and packages are private. To request access, mail
 configit-sdk-req@configit.com.
