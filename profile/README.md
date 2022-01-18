@@ -1,5 +1,4 @@
-Configit SDK contains libraries (available as NuGet and npm packages) and sample code
-to help you develop Configit applications.
+Configit SDK contains libraries and sample code to help you develop applications integrated to Configit Ace.
 
 ## Requesting access
 
