@@ -29,8 +29,7 @@ A library for generating XML import files for Ace Model.
 
 A helper library for calling the Packages API, Configuration API,
 and Storage API. Use this client to build interactive configurators,
-inspect products, and query which individual resources a package
-contains.
+inspect products, and query a package for its individual resources.
 
 - NuGet package — [`Configit.Ace.Platform.Client`](https://github.com/configit-sdk/ace-configure-samples/packages/1123127)
 - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
