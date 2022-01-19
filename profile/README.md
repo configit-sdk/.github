@@ -16,7 +16,7 @@ A helper library for the Ace Model API, letting you
 programmatically interact with the Ace Model application.
 
 - NuGet package —  [`Configit.Ace.Model.Api.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1151047)
-- Sample application —  [Ace Model API Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/RestApi/ApiClientSampleModel)
+- Sample application —  [Ace Model API Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
 
 ### Ace Model Import XML Client for .NET
 
@@ -27,20 +27,19 @@ A library for generating XML import files for Ace Model.
 
 ### Ace Configure Client for .NET
 
-A helper library for calling the Packages API,
-Configuration API, and Storage API. Use this client to build interactive
-configurators, discover the contents of packages, and query which
-individual resources a package contains.
+A helper library for calling the Packages API, Configuration API,
+and Storage API. Use this client to build interactive configurators,
+inspect products, and query which individual resources a package
+contains.
 
 - NuGet package — [`Configit.Ace.Platform.Client`](https://github.com/configit-sdk/ace-configure-samples/packages/1123127)
 - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
 
 ### Ace Configure Offline Client for .NET
 
-An offline implementation of the
-Configuration API. Use this client to build configurators that run locally
-(offline) against packages downloaded from Ace Platform. Applications
-using this client should be intended for single users.
+An offline implementation of the Configuration API. Use this client to
+build configurators (intended for a single users) that run locally
+against packages downloaded from Ace Platform.
 
 - NuGet package — *Not yet available*
 - Sample application —
