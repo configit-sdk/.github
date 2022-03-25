@@ -43,4 +43,7 @@ against packages downloaded from Ace Platform.
 
 For building interactive web configurators in TypeScript. This client wraps the Configuration API and Packages API.
 
-- npm package — *Not yet available*
+The client consists of two npm packages:
+
+- [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
+- [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
