@@ -35,7 +35,7 @@ interactive configurators, inspect products, and query a package for its individ
 An offline implementation of the Configuration API. Use this client to build configurators (intended for a single users) that run locally
 against packages downloaded from Ace Platform.
 
-- NuGet package — *Not yet available*
+- NuGet package — [`Configit.Ace.Platform.Client.Offline`](https://github.com/configit-sdk/ace-configure-samples/packages/1370338)
 - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
   
