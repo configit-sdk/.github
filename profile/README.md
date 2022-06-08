@@ -2,13 +2,13 @@
 
 Welcome to the Configit SDK, home of libraries and sample code for Configit partners.
 
-> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/> To request access, mail configit-sdk-req@configit.com.
+> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
 
 The following libraries are available for Configit Ace.
 
 ### Ace Model Client for .NET
 
-A helper library for the Ace Model API, letting you read or write Ace Model data.
+A helper library for the Ace Model API, letting you read and write Ace Model data.
 
 - NuGet package — [`Configit.Ace.Model.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1459862)
 - Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
