@@ -4,44 +4,67 @@ Welcome to the Configit SDK, home of libraries and sample code for Configit part
 
 > **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
 
-The following libraries are available for Configit Ace.
+Ace offers several libraries for developing software that integrates with an Ace solution.
+Here are some use cases to guide you:
 
-### Ace Model Client for .NET
+- [Creating packages](#creating-packages)
+- [Reading/writing Ace Model data](#readingwriting-ace-model-data)
+- [Building a configurator](#building-a-configurator)
+- [Accessing a specific web API](#accessing-a-specific-web-api)
 
-A helper library for the Ace Model API, letting you read and write Ace Model data.
+### Creating packages
 
-- NuGet package — [`Configit.Ace.Model.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1459862)
-- Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
+Use the **Ace Package Builder for .NET** to construct packages
+that can be published to Ace Platform.
 
-### Ace Model Import Client for .NET
+- NuGet package — *Not yet available*
+- Sample application — [Ace Package Builder sample](https://github.com/configit-sdk/ace-packagebuilder-samples)
 
-A library for generating XML import files for Ace Model. This client is intended for bulk creation of data entities.
+Note that this is a lower-level library that uses concepts such as variables and
+values compared to higher-level Ace Model concepts like families and features.
 
-- NuGet package — [`Configit.Ace.Model.Import.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1467389)
-- Sample application — [Ace Model Import Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/XmlClientSampleModel)
+### Reading/writing Ace Model data
 
-### Ace Platform Client for .NET
+If you need to read or write Model data such as product models, features, 
+and families, choose from these libraries:
 
-A helper library for calling the Packages API, Configuration API, Solution Space API, and Storage API. Use this client to build
-interactive configurators, inspect products, and query a package for its individual resources.
+- **Ace Model Import Client for .NET** — For creating Ace Model import XML files.
+  This client is intended for bulk creation of data entities.
+  - NuGet package — [`Configit.Ace.Model.Import.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1467389)
+  - Sample application — [Ace Model Import Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/XmlClientSampleModel)
 
-- NuGet package — [`Configit.Ace.Platform.Client`](https://github.com/configit-sdk/ace-configure-samples/packages/1123127)
-- Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
+- **Ace Model Client for .NET** — Wraps the Model API.
+  - NuGet package — [`Configit.Ace.Model.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1459862)
+  - Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
 
-### Ace Platform Offline Client for .NET
+### Building a configurator
 
-An offline implementation of the Configuration API. Use this client to build configurators (intended for a single users) that run locally
-against packages downloaded from Ace Platform.
+Choose from the below libraries to develop configurator applications. Though the configurator client names are similar, they differ in API coverage
+as described in [Accessing a specific web API](#accessing-a-specific-web-api).
 
-- NuGet package — [`Configit.Ace.Platform.Client.Offline`](https://github.com/configit-sdk/ace-configure-samples/packages/1370338)
-- Sample application —
+- **Ace Platform Client for TypeScript** — For building interactive web configurators in TypeScript.
+
+  The client consists of two npm packages:
+  - [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
+  - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
+- **Ace Platform Client for .NET** — For building configurators in C#/.NET.
+  - NuGet package — [`Configit.Ace.Platform.Client`](https://github.com/configit-sdk/ace-configure-samples/packages/1123127)
+  - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
+- **Ace Platform Offline Client for .NET** — For building configurators in C#/.NET that work offline.
+  The other clients require continuous access to Ace Platform.
+  - NuGet package — [`Configit.Ace.Platform.Client.Offline`](https://github.com/configit-sdk/ace-configure-samples/packages/1370338)
+  - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
-### Ace Platform Client for TypeScript
+### Accessing a specific web API
 
-For building interactive web configurators in TypeScript. This client wraps the Configuration API and Packages API.
+Ace client libraries are the recommended way for interacting with the
+Ace web APIs.  The table below shows the web APIs supported by each client:
 
-The client consists of two npm packages:
+|               Client               | Model API | Packages API | Configuration API | Solution Space API | Storage API |
+| ---------------------------------- | --------- | ------------ | ----------------- | ------------------ | ----------- |
+| Ace Model Client (.NET)            | ☑️        |              |                   |                    |             |
+| Ace Platform Client (TypeScript)   |           | ☑️           | ☑️                |                    |             |
+| Ace Platform Client (.NET)         |           | ☑️           | ☑️                | ☑️                 | ☑️          |
+| Ace Platform Offline Client (.NET) |           |              | ☑️                |                    |             |
 
-- [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
-- [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
