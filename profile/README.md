@@ -22,8 +22,7 @@ that can be published to Ace Platform.
 - Sample application — [Ace Package Builder sample](https://github.com/configit-sdk/ace-packagebuilder-samples)
 
 Note that this is a lower-level library that uses concepts such as variables and
-values which differ from higher-level Ace Model concepts like families and
-features.
+values compared to higher-level Ace Model concepts like families and features.
 
 ### Reading/writing Ace Model data
 
