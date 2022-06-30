@@ -5,7 +5,6 @@ Welcome to the Configit SDK, home of libraries and sample code for Configit part
 > **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
 
 Ace offers several libraries for developing software that integrates with an Ace solution.
-
 Here are some use cases to guide you:
 
 - [Creating packages](#creating-packages)
