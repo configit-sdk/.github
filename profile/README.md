@@ -14,10 +14,12 @@ Here are some use cases to guide you:
 
 ## Creating packages
 
+**Notice: this API has Limited Availability**
+
 Use the **Ace Package Builder for .NET** to construct packages
 that can be published to Ace Platform.
 
-- NuGet package — *Not yet available*
+- NuGet package —  [`Configit.Ace.PackageBuilder`](https://github.com/configit-sdk/ace-packagebuilder-samples/packages/1514776)
 - Sample application — [Ace Package Builder sample](https://github.com/configit-sdk/ace-packagebuilder-samples)
 
 Note that this is a lower-level library that uses concepts such as variables and
