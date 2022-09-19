@@ -63,10 +63,12 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
 Ace client libraries are the recommended way for interacting with the
 Ace web APIs.  The table below shows the web APIs supported by each client:
 
-|               Client               | Model API | Packages API | Configuration API | Solution Space API | Storage API |
-| ---------------------------------- | --------- | ------------ | ----------------- | ------------------ | ----------- |
-| Ace Model Client (.NET)            | ☑️        |              |                   |                    |             |
-| Ace Platform Client (TypeScript)   |           | ☑️           | ☑️                |                    |             |
-| Ace Platform Client (.NET)         |           | ☑️           | ☑️                | ☑️                 | ☑️          |
-| Ace Platform Offline Client (.NET) |           |              | ☑️                |                    |             |
+|                    | Ace Model Client (.NET) | Ace Platform Client (TypeScript) | Ace Platform Client (.NET) | Ace Platform Offline Client (.NET) |
+| ------------------ | ----------------------- | -------------------------------- | -------------------------- | ---------------------------------- |
+| Model API          | ☑️                      |                                  |                            |                                    |
+| Packages API       |                         | ☑️                               | ☑️                         |                                    |
+| Configuration API  |                         | ☑️                               | ☑️                         | ☑️                                 |
+| Solution Space API |                         |                                  | ☑️                         |                                    |
+| Conflict API       |                         | ☑️                               | ☑️                         |                                    |
+| Storage API        |                         |                                  | ☑️                         |                                    |
 
