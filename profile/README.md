@@ -69,6 +69,5 @@ Ace web APIs.  The table below shows the web APIs supported by each client:
 | Packages API       |                         | ☑️                               | ☑️                         |                                    |
 | Configuration API  |                         | ☑️                               | ☑️                         | ☑️                                 |
 | Solution Space API |                         |                                  | ☑️                         |                                    |
-| Conflict API       |                         | ☑️                               | ☑️                         |                                    |
-| Storage API        |                         |                                  | ☑️                         |                                    |
+| Analyze API        |                         | ☑️                               | ☑️                         |                                    |
 
