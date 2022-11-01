@@ -4,6 +4,12 @@ Welcome to the Configit SDK, home of libraries and sample code for Configit part
 
 > **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
 
+## Docker container images
+
+Ace Platform is available as a Docker container image at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform).
+
+## Libraries
+
 Ace offers several libraries for developing software that integrates with an Ace solution.
 Here are some use cases to guide you:
 
@@ -12,9 +18,9 @@ Here are some use cases to guide you:
 - [Building a configurator](#building-a-configurator)
 - [Accessing a specific web API](#accessing-a-specific-web-api)
 
-## Creating packages
+### Creating packages
 
-**Notice: this API has Limited Availability**
+> **NOTE:** this library has Limited Availability.
 
 Use the **Ace Package Builder for .NET** to construct packages
 that can be published to Ace Platform.
@@ -25,7 +31,7 @@ that can be published to Ace Platform.
 Note that this is a lower-level library that uses concepts such as variables and
 values compared to higher-level Ace Model concepts like families and features.
 
-## Reading/writing Ace Model data
+### Reading/writing Ace Model data
 
 If you need to read or write Model data such as product models, features, 
 and families, choose from these libraries:
@@ -39,7 +45,7 @@ and families, choose from these libraries:
   - NuGet package — [`Configit.Ace.Model.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1459862)
   - Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
 
-## Building a configurator
+### Building a configurator
 
 Choose from the below libraries to develop configurator applications. Though the configurator client names are similar, they differ in API coverage
 as described in [Accessing a specific web API](#accessing-a-specific-web-api).
@@ -58,7 +64,7 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
   - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
-## Accessing a specific web API
+### Accessing a specific web API
 
 Ace client libraries are the recommended way for interacting with the
 Ace web APIs.  The table below shows the web APIs supported by each client:
