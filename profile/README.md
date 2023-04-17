@@ -76,4 +76,4 @@ Ace web APIs.  The table below shows the web APIs supported by each client:
 | Configuration API  |                         | ☑️                               | ☑️                         | ☑️                                 |
 | Solution Space API |                         |                                  | ☑️                         |                                    |
 | Analyze API        |                         | ☑️                               | ☑️                         |                                    |
-
+| BOM API            |                         | ☑️                               | ☑️                         |                                    |
