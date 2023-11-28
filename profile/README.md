@@ -56,11 +56,11 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
   - [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
   - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
 - **Ace Platform Client for .NET** — For building configurators in C#/.NET.
-  - NuGet package — NuGet package —  [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
+  - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
   - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
 - **Ace Platform Offline Client for .NET** — For building configurators in C#/.NET that work offline.
   The other clients require continuous access to Ace Platform.
-  - NuGet package — NuGet package —  [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
+  - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
   - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
