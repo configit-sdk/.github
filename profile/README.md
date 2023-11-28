@@ -25,10 +25,10 @@ Here are some use cases to guide you:
 Use the **Ace Package Builder for .NET** to construct packages
 that can be published to Ace Platform.
 
-- NuGet package —  [`Configit.Ace.PackageBuilder`](https://github.com/configit-sdk/ace-packagebuilder-samples/packages/1514776)
+- NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
 - Sample application — [Ace Package Builder sample](https://github.com/configit-sdk/ace-packagebuilder-samples)
 
-Note that this is a lower-level library that uses concepts such as variables and
+Note that this is a lower-level API that uses concepts such as variables and
 values compared to higher-level Ace Model concepts like families and features.
 
 ### Reading/writing Ace Model data
@@ -56,11 +56,11 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
   - [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
   - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
 - **Ace Platform Client for .NET** — For building configurators in C#/.NET.
-  - NuGet package — [`Configit.Ace.Platform.Client`](https://github.com/configit-sdk/ace-configure-samples/packages/1123127)
+  - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
   - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
 - **Ace Platform Offline Client for .NET** — For building configurators in C#/.NET that work offline.
   The other clients require continuous access to Ace Platform.
-  - NuGet package — [`Configit.Ace.Platform.Client.Offline`](https://github.com/configit-sdk/ace-configure-samples/packages/1370338)
+  - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
   - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
