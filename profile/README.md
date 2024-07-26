@@ -20,7 +20,8 @@ Here are some use cases to guide you:
 
 ### Creating packages
 
-> **NOTE:** this library has Limited Availability.
+> [!NOTE] 
+> This library has Limited Availability.
 
 Use the **Ace Package Builder for .NET** to construct packages
 that can be published to Ace Platform.
@@ -50,11 +51,14 @@ and families, choose from these libraries:
 Choose from the below libraries to develop configurator applications. Though the configurator client names are similar, they differ in API coverage
 as described in [Accessing a specific web API](#accessing-a-specific-web-api).
 
-- **Ace Platform Client for TypeScript** — For building interactive web configurators in TypeScript.
+> [!IMPORTANT] 
+> Prior to installing npm packages, you must [set up access](#setting-up-access-to-npm-packages).
 
+- **Ace Platform Client for TypeScript** — For building interactive web configurators in TypeScript.
   The client consists of two npm packages:
   - [`ace-platform-client`](https://github.com/configit-sdk/ace-configure-samples/packages/1325398), the main library.
   - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
+
 - **Ace Platform Client for .NET** — For building configurators in C#/.NET.
   - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
   - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
@@ -77,3 +81,31 @@ Ace web APIs.  The table below shows the web APIs supported by each client:
 | Solution Space API |                         |                                  | ☑️                         |                                    |
 | Analyze API        |                         | ☑️                               | ☑️                         |                                    |
 | BOM API            |                         | ☑️                               | ☑️                         |                                    |
+
+### Setting up access to npm packages
+
+To get access to the configit-sdk npm packages, set up your environment as follows.
+
+#### Step 1 — Generate a GitHub Personal Access Token
+
+1. Go to your GitHub account settings.
+2. Navigate to "Developer settings" > "Personal access tokens".
+1. Generate a new token with the permissions `repo` and `read:packages`.
+
+#### Step 2 - Configure npm to use your GitHub token
+
+From the command line, run:
+
+```
+npm login --scope=@configit-sdk --registry=https://npm.pkg.github.com --always-auth
+```
+
+When prompted, enter your GitHub username, the personal access token as your password, and your GitHub email.
+
+This results in changes to your default `.npmrc` file. To verify the changes, check that your `.npmrc` file contains:
+
+```
+@configit-sdk:always-auth = true
+@configit-sdk:registry = "https://npm.pkg.github.com/"
+//npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
+```
