@@ -40,11 +40,11 @@ and families, choose from these libraries:
 - **Ace Model Import Client for .NET** — For creating Ace Model import XML files.
   This client is intended for bulk creation of data entities.
   - NuGet package — [`Configit.Ace.Model.Import.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1467389)
-  - Sample application — [Ace Model Import Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/XmlClientSampleModel)
+  - Sample application — [Ace Model Import Client sample](https://github.com/configit-sdk/ace-model-import-client-sample)
 
 - **Ace Model Client for .NET** — Wraps the Model API.
   - NuGet package — [`Configit.Ace.Model.Client`](https://github.com/configit-sdk/ace-model-samples/packages/1459862)
-  - Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-samples/tree/main/ModelApi/ApiClientSampleModel)
+  - Sample application — [Ace Model Client sample](https://github.com/configit-sdk/ace-model-client-sample)
 
 ### Building a configurator
 
