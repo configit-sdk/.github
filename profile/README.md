@@ -20,9 +20,6 @@ Here are some use cases to guide you:
 
 ### Creating packages
 
-> [!NOTE] 
-> This library has Limited Availability.
-
 Use the **Ace Package Builder for .NET** to construct packages
 that can be published to Ace Platform.
 
