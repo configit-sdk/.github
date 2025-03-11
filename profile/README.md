@@ -4,6 +4,8 @@ Welcome to the Configit SDK, home of libraries and sample code for Configit part
 
 > **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
 
+> **Getting support**: If you require support, please write to support@configit.com
+
 ## Docker container images
 
 Ace Platform is available as a Docker container image at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform).
