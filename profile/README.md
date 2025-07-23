@@ -8,8 +8,11 @@ Welcome to the Configit SDK, home of libraries and sample code for Configit part
 
 ## Docker container images
 
-Ace Platform is available as a Docker container image at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform).
-
+Ace is available as a Docker container images:
+* Ace Platform at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform).
+* Ace Model at [ghcr.io/configit-sdk/ace-model](https://ghcr.io/configit-sdk/ace-model).
+* Ace Worker at [ghcr.io/configit-sdk/ace-worker](https://ghcr.io/configit-sdk/ace-worker).
+  
 ## Libraries
 
 Ace offers several libraries for developing software that integrates with an Ace solution.
