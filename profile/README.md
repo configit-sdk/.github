@@ -2,7 +2,7 @@
 
 Welcome to the Configit SDK, home of libraries and sample code for Configit partners.
 
-> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, mail configit-sdk-req@configit.com.
+> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, send a mail to support@configit.com.
 
 > **Getting support**: If you require support, please write to support@configit.com.
 
