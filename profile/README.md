@@ -1,4 +1,5 @@
-# Welcome to the Configit SDK :wave:
+Welcome to the Configit SDK :wave:
+==================================
 
 Welcome to the Configit SDK, home of libraries and sample code for Configit partners.
 
@@ -111,3 +112,25 @@ This results in changes to your default `.npmrc` file. To verify the changes, ch
 @configit-sdk:registry = "https://npm.pkg.github.com/"
 //npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
 ```
+
+## Configit Client Library Support Policy (Oct 2025)
+
+### Configit Ace SaaS Releases
+
+Currently, Configit Ace is released four times a year for SaaS-customers and once a year for on-prem customers.
+
+Ace supports multiple versions of its APIs. When a new API version is released, the preceding version is marked as deprecated but continues to be supported. This flexibility allows customers to transition to the new version at their own pace. The version of the API is indicated in the URL of each endpoint (e.g., /api/v1/packages). APIs are thus versioned independently of the Ace product they are part of.
+
+A new API version is only released when there's a breaking change. Non-breaking changes are added to the existing version. All changes are announced in the release notes and described in the API changelogs with a clear step-by-step description of how to update a solution that uses the affected APIs.
+
+### Configit Client libraries
+
+Along with the web API we also provide a set of client libraries: Ace Package Builder, Ace Model Import Client, Ace Model Client, Ace Platform Client, and Ace Platform Offline. The client libraries are versioned together with the Ace version they are released with. As the Web APIs are backwards compatible, customers can continue to use an older version of the client library with a newer version of Ace. However, we recommend that customers migrate to the latest version of the client libraries as soon as possible.
+
+Customers may continue using an older version of a client library until certain conditions arise. Upgrades will only be required in the following cases:
+
+- If a bug is discovered in the client library after it has reached its End of Life (EOL) and no further updates are available for that version.
+- If the version of the API being used is no longer available, such as when migrating from v1 to v2 of the API.
+- If the customer wishes to take advantage of new features or capabilities introduced in newer versions of the API.
+
+If none of these conditions apply, customers can continue using the older version of the client library without any issues.
