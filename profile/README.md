@@ -63,7 +63,7 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
   - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
 
 - **Ace Platform Client for .NET** — For building configurators in C#/.NET.
-  - NuGet package — NuGet package — [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public)
+  - NuGet package — NuGet package — [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public.Lite)
   - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
 - **Ace Platform Offline Client for .NET** — For building configurators in C#/.NET that work offline.
   The other clients require continuous access to Ace Platform.
@@ -71,19 +71,29 @@ as described in [Accessing a specific web API](#accessing-a-specific-web-api).
   - Sample application —
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
-### Accessing a specific web API
+> [!IMPORTANT] 
+> The Ace Platform Client for .NET in the [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public.Lite) package is a lightweight version of the Ace Platform Client for .NET in the [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public) package.
+> The Lite version is optimized for accessing some web APIs using a minimal set of third-party dependencies making it suitable for use in web server applications.
+> This version cannot be used in combination with the Public package.
+
+
+### Accessing a specific API
 
 Ace client libraries are the recommended way for interacting with the
-Ace web APIs.  The table below shows the web APIs supported by each client:
+Ace APIs. The table below shows the APIs supported by each client:
 
-|                    | Ace Model Client (.NET) | Ace Platform Client (TypeScript) | Ace Platform Client (.NET) | Ace Platform Offline Client (.NET) |
+|                    | Ace Model Client (.NET) | Ace Platform Client (TypeScript) | Ace Public Client (.NET )  | Ace Public Lite Client (.NET) |
 | ------------------ | ----------------------- | -------------------------------- | -------------------------- | ---------------------------------- |
-| Model API          | ☑️                      |                                  |                            |                                    |
-| Packages API       |                         | ☑️                               | ☑️                         |                                    |
+| Model Web API          | ☑️                      |                                  |                            |                                    |
+| Packages Web API       |                         | ☑️                               | ☑️                         | ☑️                                  |
 | Configuration API  |                         | ☑️                               | ☑️                         | ☑️                                 |
-| Solution Space API |                         |                                  | ☑️                         |                                    |
-| Analyze API        |                         | ☑️                               | ☑️                         |                                    |
-| BOM API            |                         | ☑️                               | ☑️                         |                                    |
+| Solution Space Web API |                         |                                  | ☑️                         | ☑️                                  |
+| Analyze Web API        |                         | ☑️                               | ☑️                         | ☑️                                 |
+| BOM Web API            |                         | ☑️                               | ☑️                         | ☑️                                 |
+| Compile Web API  |                         |                                | ☑️                         |                                  |
+| Configuration Offline API  |                         |                                | ☑️                         |                                  |
+| PackageBuilder Offline API  |                         |                                | ☑️                         |                                  |
+| Compile Offline API  |                         |                                | ☑️                         |                                  |
 
 ### Setting up access to npm packages
 
