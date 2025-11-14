@@ -52,7 +52,7 @@ and families, choose from these libraries:
 ### Building a configurator
 
 Choose from the below libraries to develop configurator applications. Though the configurator client names are similar, they differ in API coverage
-as described in [Accessing a specific web API](#accessing-a-specific-web-api).
+as described in [Accessing a specific API](#accessing-a-specific-api).
 
 > [!IMPORTANT] 
 > Prior to installing npm packages, you must [set up access](#setting-up-access-to-npm-packages).
