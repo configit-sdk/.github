@@ -63,7 +63,7 @@ as described in [Accessing a specific API](#accessing-a-specific-api).
   - [`ace-platform-client-react`](https://github.com/configit-sdk/ace-configure-samples/packages/1325400), an optional companion library for React development.
 
 - **Ace Platform Client for .NET** — For building configurators in C#/.NET.
-  - NuGet package — NuGet package — [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public.Lite)
+  - NuGet package — NuGet package — [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-configure-samples/pkgs/nuget/Configit.Ace.Public.Lite)
   - Sample application — [CLI Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-configurator)
 - **Ace Platform Offline Client for .NET** — For building configurators in C#/.NET that work offline.
   The other clients require continuous access to Ace Platform.
@@ -72,7 +72,7 @@ as described in [Accessing a specific API](#accessing-a-specific-api).
   [CLI Offline Configurator](https://github.com/configit-sdk/ace-configure-samples/tree/master/cli-offline-configurator)
 
 > [!IMPORTANT] 
-> The Ace Platform Client for .NET in the [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public.Lite) package is a lightweight version of the Ace Platform Client for .NET in the [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public) package.
+> The Ace Platform Client for .NET in the [`Configit.Ace.Public.Lite`](https://github.com/configit-sdk/ace-configure-samples/pkgs/nuget/Configit.Ace.Public.Lite) package is a lightweight version of the Ace Platform Client for .NET in the [`Configit.Ace.Public`](https://github.com/configit-sdk/ace-packagebuilder-samples/pkgs/nuget/Configit.Ace.Public) package.
 > The Lite version is optimized for accessing some web APIs using a minimal set of third-party dependencies making it suitable for use in web server applications.
 > This version cannot be used in combination with the Public package.
 
