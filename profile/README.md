@@ -1,18 +1,22 @@
 Welcome to the Configit SDK :wave:
 ==================================
 
-Welcome to the Configit SDK, home of libraries and sample code for Configit partners.
+Welcome to the Configit SDK, home of libraries, sample code, and container images for Configit partners.
 
-> **Getting access**: The Configit SDK repositories and NuGet/npm packages are private.<br/>To request access, send a mail to support@configit.com.
+> **Getting access**: The Configit SDK repositories, container registries, and NuGet/npm packages are private.<br/>To request access, send a mail to support@configit.com.
 
 > **Getting support**: If you require support, please write to support@configit.com.
 
-## Docker container images
+## Container images
 
-Ace is available as a Docker container images:
-* Ace Platform at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform).
-* Ace Model at [ghcr.io/configit-sdk/ace-model](https://ghcr.io/configit-sdk/ace-model).
-* Ace Worker at [ghcr.io/configit-sdk/ace-worker](https://ghcr.io/configit-sdk/ace-worker).
+Ace is available as container images:
+* Ace Platform at [ghcr.io/configit-sdk/ace-platform](https://ghcr.io/configit-sdk/ace-platform)
+* Ace Model at [ghcr.io/configit-sdk/ace-model](https://ghcr.io/configit-sdk/ace-model)
+* Ace Worker at [ghcr.io/configit-sdk/ace-worker](https://ghcr.io/configit-sdk/ace-worker)
+* Ace Importer at [ghcr.io/configit-sdk/import-service](https://ghcr.io/configit-sdk/import-service)
+* Ace Scheduler at [ghcr.io/configit-sdk/scheduler](https://ghcr.io/configit-sdk/scheduler)
+* Grid Manager at [ghcr.io/configit-sdk/grid-manager](https://ghcr.io/configit-sdk/grid-manager)
+* Grid Node at [ghcr.io/configit-sdk/grid-node](https://ghcr.io/configit-sdk/grid-node)
   
 ## Libraries
 
